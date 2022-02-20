@@ -1,0 +1,12 @@
+.central_container{
+    max-width: 1170px; margin: auto;
+}
+.bakery_quality{
+    padding: 80px;
+}
+.bakery_quality{
+
+}
+.d_flex{
+    display: flex; justify-content: space-between;
+}
