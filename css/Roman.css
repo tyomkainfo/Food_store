@@ -10,4 +10,6 @@
 .bakery_quality div div{
     justify-content: space-between;
 }
-
+.bakery_quality p strong{
+    font-family: 'Cormorant'; font-style: normal; font-weight: bold; font-size: 25px; line-height: 30px;
+}
