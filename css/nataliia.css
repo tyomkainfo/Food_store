@@ -1,3 +1,4 @@
+
 .offers{
     font-family: 'Cormorant';
     font-style: normal;
@@ -15,6 +16,7 @@
 .assortment{
     flex-direction: column;
     text-align: center;
+    padding-right: 30px;
 }
 .font_names{
     font-family: Poppins;
@@ -61,4 +63,12 @@
     text-align:center;
     text-decoration: none;
     padding: 6px 64px 7px 64px;
+}
+@media only screen and (max-width: 768px) {
+    .d_flex{
+        flex-wrap: wrap;
+    }
+    .assortment img{
+        padding-top: 30px;
+    }
 }
