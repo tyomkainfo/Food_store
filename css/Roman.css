@@ -11,7 +11,7 @@
     padding: 80px 0;
 }
 .bakery_quality div div{
-    justify-content: space-between; margin: auto;
+    justify-content: space-between;
 }
 
 .bakery_quality p strong{
@@ -46,7 +46,9 @@
 
 }
 @media only screen and (max-width: 420px) {
-
+    .bakery_quality div div{
+        margin: auto; text-align: center;
+    }
 }
 @media only screen and (max-width: 375px) {
     .bakery_quality div div{
