@@ -1,0 +1,80 @@
+Index: css/Kolya.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/css/Kolya.css b/css/Kolya.css
+--- a/css/Kolya.css	
++++ b/css/Kolya.css	
+@@ -1,0 +1,71 @@
++.social{
++    padding: 60px 0;
++    background: rgba(255, 129, 38, 0.12);
++}
++
++.social_title {
++    font-family: 'Cormorant';
++    font-weight: 700;
++    font-size: 40px;
++    line-height: 48px;
++    color: #1F1F1F;
++    text-align: center;
++    margin-bottom: 40px;
++}
++
++.social_actions{
++    display: flex;
++    align-items: center;
++    justify-content: center;
++    flex-wrap: wrap;
++    list-style-type: none;
++}
++
++.social_item{
++    margin: 0 15px;
++    height: 60px;
++    width: 60px;
++}
++
++.social_link{
++    display: inline-block;
++    text-decoration: none;
++    cursor: pointer;
++}
++
++.social_icon{
++    height: 60px;
++    width: 60px;
++    display: block;
++    fill: #FF8126;
++}
++.social_actions li:first-child {
++    margin-left: 0;
++}
++
++.social_actions li:last-child {
++    margin-right: 0;
++}
++
++.social_icon:hover{
++    fill: #1F1F1F;
++    transition: fill 0.2s linear;
++}
++
++.svg{
++    display: none;
++}
++
++@media only screen and (max-width: 767px) {
++    .social_actions li:first-child {
++        margin-left: 15px;
++    }
++
++    .social_actions li:last-child {
++        margin-right: 15px;
++    }
++
++    .social_item{
++        margin-bottom: 30px;
++    }
++}
