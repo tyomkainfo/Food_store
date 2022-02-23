@@ -22,14 +22,14 @@
 
 /* ad */
 .ad_block {
-    position: relative;
     width: 100%;
     padding: 15px 0 14px 0;
     background-color: #C2E8CE;
 }
-
+.f_b {
+    position: relative;
+}
 .ad_block a {
-
     text-decoration: none;
     max-width: 1170px;
     margin: auto;
@@ -41,8 +41,8 @@
 }
 .close {
     position: absolute;
-    top: 25px;
-    right: 180px;
+    top: 8px;
+    right: 0;
     width: 16px;
     height: 16px;
     cursor: pointer;
@@ -72,7 +72,7 @@ header {
     padding: 20px 0;
 }
 
-.header_nav ol{
+.header_nav ul{
     display: flex;
 
 }
@@ -82,7 +82,7 @@ header {
     margin: 0 20px;
 }
 
-.nav_link:after {
+.header_nav .drop_down:after {
     font-family: 'FontAwesome';
     content: "\f107";
     font-size: 12px;
@@ -108,7 +108,7 @@ header {
 .header_actions img {
    margin: auto;
 }
-.search, .profile, .shopping_cart {
+.icn {
     display: flex;
     margin: 0 5px;
     text-decoration: none;
@@ -119,8 +119,13 @@ header {
     border-radius: 50%;
 }
 
+.icn:hover {
+    background-color: #FF8126;
+    transition: .3s;
+    opacity: 0.9;
+}
 
-.shopping_cart {
+.icn:last-child {
     position: relative;
 }
 .purch {
@@ -207,6 +212,9 @@ header {
     border-radius: 5px;
 }
 
+.intro a:hover {
+    background-color: #9a4806;
+}
 @media only screen and (max-width: 1024px) {
     header {
         padding: 20px 10px;
@@ -408,3 +416,9 @@ header {
         padding: 5px 10px;
     }
 }}
+
+.header_logo {
+    position: relative;
+    animation: logo 5s infinite;
+
+}
