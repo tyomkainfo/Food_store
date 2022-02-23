@@ -14,9 +14,7 @@
     color: #FF8126;
 }
 .assortment{
-    flex-direction: column;
     text-align: center;
-    padding-right: 30px;
 }
 .font_names{
     font-family: Poppins;
@@ -26,6 +24,7 @@
     line-height: 27px;
     text-align: center;
     color: #1F1F1F;
+    margin-top: 20px;
 }
 .font_price{
     font-family: Poppins;
@@ -34,9 +33,6 @@
     font-size: 24px;
     line-height: 36px;
     color: #FF8126;
-    padding-top: 5px;
-    padding-right: 5px;
-    padding-bottom: 20px;
 }
 .font_old_price{
     font-family: Poppins;
@@ -46,10 +42,16 @@
     line-height: 27px;
     text-decoration-line: line-through;
     color: #656565;
-    padding-top: 11px;
+    margin-left: 5px;
 }
 .jc{
     justify-content: center;
+}
+.prices{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-top: 5px;
 }
 .Quick_Shop{
     background: #FF8126;
@@ -64,9 +66,17 @@
     text-decoration: none;
     padding: 6px 64px 7px 64px;
 }
+.quick_link{
+    margin-top: 20px;
+}
+.latest_Offers{
+    display: flex;
+    justify-content: space-between;
+}
 @media only screen and (max-width: 768px) {
-    .d_flex{
+    .nb_d_flex{
         flex-wrap: wrap;
+        justify-content: space-around;
     }
     .assortment img{
         padding-top: 30px;
