@@ -33,18 +33,27 @@
     .bakery_quality div div{
         flex-wrap: wrap;
     }
+    .bakery_quality div div:last-child{
+
+    }
 }
 @media only screen and (max-width: 992px) {
-
+    .bakery_quality div div{
+        padding-bottom: 20px;
+    }
 }
 @media only screen and (max-width: 767px) {
 
 }
 @media only screen and (max-width: 420px) {
-
+    .bakery_quality div div{
+        margin: auto; text-align: center;
+    }
 }
 @media only screen and (max-width: 375px) {
-
+    .bakery_quality div div{
+        padding-bottom: 20px;
+    }
 }
 @media only screen and (max-width: 360px) {
 
