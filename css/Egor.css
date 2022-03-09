@@ -1,0 +1,103 @@
+.who_makes_your_food span{
+    color: #EE7824;
+}
+.who_makes_your_food h2{
+    font-family: Cormorant;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 48px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.blueberry{
+    margin-left: 30px;
+}
+.who_makes_your_food p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 24px;
+    text-align: left;
+
+}
+.donesign{
+    border-radius: 100px;
+    background-color: #EE7824;
+    padding: 9px 7px;
+}
+.who_makes_your_food .list{
+    padding-top: 40px;
+}
+.who_makes_your_food .element_of_list{
+    align-items: flex-start;
+    margin-top: 20px;
+}
+.who_makes_your_food .element_of_list p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 24px;
+    text-align: left;
+    margin-left: 15px;
+    margin-left: 15px;
+}
+.producers_section .discover{
+    display: inline-block;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 27px;
+    text-align: left;
+    border-radius: 5px;
+    background-color: #EE7824;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 8px 30px 10px 30px;
+    margin-top: 30px;
+}
+.charity_section{
+    background-image: url('../images/backgroundcharity.jpg');
+    background-size: cover;
+    margin-top: 80px;
+}
+.charity_section h2{
+    font-family: Cormorant;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    padding-top: 60px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.charity_logo{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+
+}
+.charity_section .learnmore{
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 27px;
+    border-radius: 5px;
+    background-color: #EE7824;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 8px 31px 10px 31px;
+    display: inline-block;
+}
+.learmore_div{
+    margin-top: 30px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+

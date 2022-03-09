@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="32932d8b-f617-4489-890c-edf4ec3f82e9" name="Changes" comment="Footer completed, good luck to everyone ;)" />
+    <list default="true" id="f9c4b8b5-c3ad-49ff-bf1f-fc27f20c1a1e" name="Changes" comment="edit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,10 +13,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="25Ng2vvbSFmx6vnXox94MjstBzB" />
+  <component name="ProjectId" id="25N6DIuR0o6oWbwFwC0wFJvcu1N" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -28,42 +33,103 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="32932d8b-f617-4489-890c-edf4ec3f82e9" name="Changes" comment="" />
-      <created>1645372757937</created>
+      <changelist id="f9c4b8b5-c3ad-49ff-bf1f-fc27f20c1a1e" name="Changes" comment="" />
+      <created>1645355077040</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1645372757937</updated>
-      <workItem from="1645372760261" duration="7519000" />
-      <workItem from="1645464235752" duration="51000" />
-      <workItem from="1645464313231" duration="255000" />
-      <workItem from="1645519665983" duration="62000" />
-      <workItem from="1645519747199" duration="95000" />
-      <workItem from="1645638753319" duration="622000" />
-      <workItem from="1645640276325" duration="1150000" />
-      <workItem from="1646826939007" duration="160000" />
+      <updated>1645355077040</updated>
+      <workItem from="1645355078363" duration="1666000" />
+      <workItem from="1645381560117" duration="17032000" />
+      <workItem from="1645465646360" duration="51000" />
+      <workItem from="1645465735588" duration="10000" />
+      <workItem from="1645465805438" duration="6784000" />
+      <workItem from="1645480333416" duration="12083000" />
+      <workItem from="1645492662057" duration="111000" />
+      <workItem from="1645509983451" duration="1524000" />
+      <workItem from="1645556727305" duration="20091000" />
+      <workItem from="1645635439196" duration="154000" />
+      <workItem from="1645640285327" duration="1388000" />
+      <workItem from="1645642103709" duration="2311000" />
+      <workItem from="1645645351410" duration="342000" />
     </task>
-    <task id="LOCAL-00001" summary="Footer completed, good luck to everyone ;)">
-      <created>1645379344604</created>
+    <task id="LOCAL-00001" summary="add header and section class=intro">
+      <created>1645356620181</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1645379344608</updated>
+      <updated>1645356620181</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add header and section class=intro">
+      <created>1645491229162</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1645491229162</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add fontawesome script">
+      <created>1645492394889</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1645492394889</updated>
+    </task>
+    <task id="LOCAL-00004" summary="logo">
+      <created>1645510177402</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1645510177403</updated>
+    </task>
+    <task id="LOCAL-00005" summary="logo">
+      <created>1645511494862</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1645511494862</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added media">
+      <created>1645578283217</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1645578283217</updated>
+    </task>
+    <task id="LOCAL-00007" summary="edit">
+      <created>1645645079652</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1645645079652</updated>
+    </task>
+    <task id="LOCAL-00008" summary="edit">
+      <created>1645645391978</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1645645391978</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -77,7 +143,15 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Footer completed, good luck to everyone ;)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Footer completed, good luck to everyone ;)" />
+    <MESSAGE value="add header and section class=intro" />
+    <MESSAGE value="add fontawesome script" />
+    <MESSAGE value="logo" />
+    <MESSAGE value="added media" />
+    <MESSAGE value="edit" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

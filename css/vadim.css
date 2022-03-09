@@ -1,0 +1,424 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.d_flex {
+    display: flex;
+}
+.ai_c {
+    align-items: center;
+}
+.jc_sb {
+    justify-content: space-between;
+}
+.jc_fe {
+    justify-content: flex-end;
+}
+.ta_c {
+    text-align: center;
+}
+
+/* ad */
+.ad_block {
+    width: 100%;
+    padding: 15px 0 14px 0;
+    background-color: #C2E8CE;
+}
+.f_b {
+    position: relative;
+}
+.ad_block a {
+    text-decoration: none;
+    max-width: 1170px;
+    margin: auto;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #1F1F1F;
+}
+.close {
+    position: absolute;
+    top: 8px;
+    right: 0;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.close::before,
+.close::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    display: block;
+    width: 16px;
+    height: 2px;
+    background: #1F1F1F;
+}
+
+.close::before {
+    transform: rotate(45deg);
+}
+
+.close::after {
+    transform: rotate(-45deg);
+}
+
+/*header*/
+header {
+    padding: 20px 0;
+}
+
+.header_nav ul{
+    display: flex;
+
+}
+
+.header_nav li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+.header_nav .drop_down:after {
+    font-family: 'FontAwesome';
+    content: "\f107";
+    font-size: 12px;
+    margin-left: 7px;
+}
+
+.header_nav li a {
+    text-decoration: none;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #1F1F1F;
+}
+
+.header_nav li a:hover {
+    color: #FF8126;
+    transition: .3s;
+}
+.header_actions {
+    display: flex;
+}
+.header_actions img {
+   margin: auto;
+}
+.icn {
+    display: flex;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #FFFFFF;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #BFBFBF;
+    border-radius: 50%;
+}
+
+.icn:hover {
+    background-color: #FF8126;
+    transition: .3s;
+    opacity: 0.9;
+}
+
+.icn:last-child {
+    position: relative;
+}
+.purch {
+    position: absolute;
+    top: 5px;
+    left: 45px;
+    width: 16px;
+    height: 16px;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 9px;
+    line-height: 15px;
+    color: #FFFFFF;
+    background: #FF8126;
+    border: 1px solid #FF8126;
+    border-radius: 50%;
+    text-align: center;
+
+}
+
+.burger {
+    display: none;
+    position: relative;
+    width: 30px;
+    height: 3px;
+    background-color: #1F1F1F;
+    margin: 3px 0;
+}
+
+.burger::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -7px;
+    width: 30px;
+    height: 3px;
+    background-color: #1F1F1F;
+}
+
+.burger::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 7px;
+    width: 30px;
+    height: 3px;
+    background-color: #1F1F1F;
+}
+
+/* intro */
+.intro {
+    background: url("../images/fruits.jpg") no-repeat;
+    background-size: cover;
+    padding: 125px 0 195px;
+}
+
+.intro h1  {
+    font-family: Cormorant;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    color: #1F1F1F;
+    margin-bottom: 5px;
+}
+
+.intro p {
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 39px;
+    color: #1F1F1F;
+    margin-bottom: 48px;
+}
+
+.intro a {
+    font-family: Poppins;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    padding: 8px 36px 10px 36px;
+    background: #FF8126;
+    border-radius: 5px;
+}
+
+.intro a:hover {
+    background-color: #9a4806;
+}
+@media only screen and (max-width: 1024px) {
+    header {
+        padding: 20px 10px;
+    }
+
+    .close {
+        right: 20px;
+    }
+
+    .header_nav li a {
+        font-size: 13px;
+    }
+
+    .search, .profile, .shopping_cart {
+        width: 50px;
+        height: 50px;
+    }
+
+    .purch {
+        left: 40px;
+    }
+
+    .intro {
+        background: url("../images/fruits.jpg") no-repeat;
+        background-size: contain;
+        padding: 110px 0 125px 10px;
+    }
+
+    .intro h1 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .intro p {
+        font-size: 20px;
+        margin-bottom: 28px;
+    }
+
+    .intro a {
+        font-size: 14px;
+        padding: 5px 20px 5px 20px;
+        background: #FF8126;
+    }
+
+    @media only screen and (max-width: 992px) {
+        .ad_block a {
+            font-size: 10px;
+        }
+
+        .ad_block {
+            padding: 7px 0 7px 0;
+        }
+
+        .close {
+            top: 18px;
+        }
+
+        .close::before, .close::after {
+            width: 12px;
+        }
+
+        .header_actions img {
+            height: 15px;
+            width: 15px;
+        }
+
+        .header_logo {
+            width: 90px;
+            height: 70px;
+        }
+
+        .header_nav li {
+            margin: 0 10px;
+        }
+
+        .header_nav li a {
+            font-size: 11px;
+        }
+
+        .search, .profile, .shopping_cart {
+            width: 30px;
+            height: 30px;
+        }
+
+        .purch {
+            left: 23px;
+            top: 1px;
+            width: 10px;
+            height: 10px;
+            font-size: 8px;
+            line-height: 10px;
+        }
+
+
+
+        .intro h1 {
+            font-size: 35px;
+        }
+
+        .intro p {
+            font-size: 15px;
+            margin-bottom: 28px;
+        }
+
+        .intro a {
+            font-size: 14px;
+            padding: 5px 20px 5px 20px;
+            background: #FF8126;
+        }
+    }
+@media only screen and (max-width: 767px) {
+    .intro {
+        padding: 40px 0 100px 10px;
+    }
+
+    .header_actions {
+        display: none;
+    }
+
+    .header_nav {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .close {
+        top: 18px;
+    }
+
+}
+@media only screen and (max-width: 420px) {
+    .ad_block {
+        display: none;
+    }
+
+    header {
+        padding: 10px 20px;
+    }
+
+    .header_logo {
+        width: 60px;
+        height: 40px;
+    }
+
+    .intro {
+        padding: 20px 0 65px 35px;
+    }
+
+    .intro h1 {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .intro p {
+        font-size: 10px;
+        line-height: 10px;
+        margin-bottom: 15px;
+    }
+
+    .intro a {
+        font-size: 10px;
+        padding: 5px 10px;
+    }
+
+    .header_actions {
+        display: none;
+    }
+
+    .header_nav {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
+}
+@media only screen and (max-width: 375px) {
+
+}
+@media only screen and (max-width: 360px) {
+
+}
+@media only screen and (max-width: 320px) {
+    .intro h1 {
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .intro p {
+        font-size: 8px;
+        line-height: 8px;
+        margin-bottom: 15px;
+    }
+
+    .intro a {
+        font-size: 8px;
+        padding: 5px 10px;
+    }
+}}
+
+.header_logo {
+    position: relative;
+    animation: logo 5s infinite;
+
+}

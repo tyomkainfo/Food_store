@@ -1,0 +1,84 @@
+
+.offers{
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    color: #1F1F1F;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+.offers_orange{
+    color: #FF8126;
+}
+.assortment{
+    text-align: center;
+}
+.font_names{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #1F1F1F;
+    margin-top: 20px;
+}
+.font_price{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FF8126;
+}
+.font_old_price{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    text-decoration-line: line-through;
+    color: #656565;
+    margin-left: 5px;
+}
+.jc{
+    justify-content: center;
+}
+.prices{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-top: 5px;
+}
+.Quick_Shop{
+    background: #FF8126;
+    border-radius: 5px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    text-align:center;
+    text-decoration: none;
+    padding: 6px 64px 7px 64px;
+}
+.quick_link{
+    margin-top: 20px;
+}
+.latest_Offers{
+    display: flex;
+    justify-content: space-between;
+}
+@media only screen and (max-width: 768px) {
+    .nb_d_flex{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .assortment img{
+        padding-top: 30px;
+    }
+}

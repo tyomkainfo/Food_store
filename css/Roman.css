@@ -11,7 +11,7 @@
     padding: 80px 0;
 }
 .bakery_quality div div{
-    justify-content: space-between; flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .bakery_quality p strong{
@@ -28,4 +28,36 @@
 }
 .bakery_quality span{
     color: #FF8126
+}
+@media only screen and (max-width: 1024px) {
+    .bakery_quality div div{
+        flex-wrap: wrap;
+    }
+    .bakery_quality div div:last-child{
+
+    }
+}
+@media only screen and (max-width: 992px) {
+    .bakery_quality div div{
+        padding-bottom: 20px;
+    }
+}
+@media only screen and (max-width: 767px) {
+
+}
+@media only screen and (max-width: 420px) {
+    .bakery_quality div div{
+        margin: auto; text-align: center;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .bakery_quality div div{
+        padding-bottom: 20px;
+    }
+}
+@media only screen and (max-width: 360px) {
+
+}
+@media only screen and (max-width: 320px) {
+
 }
