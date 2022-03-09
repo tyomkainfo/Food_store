@@ -1,0 +1,74 @@
+Index: index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!doctype html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\"\n          content=\"width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n    <title>Document</title>\n    <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n    <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n    <link href=\"https://fonts.googleapis.com/css2?family=Cormorant:wght@700&family=Poppins:wght@300;400;500&family=Roboto:ital,wght@1,300&display=swap\" rel=\"stylesheet\">\n    <link rel=\"stylesheet\" href=\"css/normalize.css\">\n    <link rel=\"stylesheet\" href=\"css/Alyona.css\">\n    <link rel=\"stylesheet\" href=\"css/Egor.css\">\n    <link rel=\"stylesheet\" href=\"css/Kolya.css\">\n    <link rel=\"stylesheet\" href=\"css/nataliia.css\">\n    <link rel=\"stylesheet\" href=\"css/Roman.css\">\n    <link rel=\"stylesheet\" href=\"css/vadim.css\">\n    <link rel=\"stylesheet\" href=\"css/vitalii.css\">\n</head>\n<body>\n<section class=\"bakery_quality\">\n    <div class=\"central_container\">\n        <h3>Why Choose <span>the Premium Bakery Quality</span></h3>\n        <div class=\"d_flex\">\n            <div>\n                <img src=\"images/telescope.svg\" alt=\"telescope\">\n                <p class=\"first_p\"><strong>\n                    Discover new flavours & people\n                </strong></p>\n                <p>\n                    Discover new tastes, flavours, snacks and recipes to make wonderful meals. Also find out where your food comes from and who makes it.\n                </p>\n            </div>\n            <div>\n                <img src=\"images/wholesale.svg\" alt=\"wholesale\">\n                <p><strong>\n                    Buy wholesale\n                </strong></p>\n                <p>\n                    We offer bulk formats, variety cases, and discovery boxes so you can save money on delicious foods by buying at wholesale prices.\n                </p>\n            </div>\n            <div>\n                <img src=\"images/handshake.svg\" alt=\"handshake\">\n                <p><strong>\n                    Support your community\n                </strong></p>\n                <p>\n                    By buying in bulk from local and Canadian producers you are helping grow our local food ecosystem, creating jobs, and supporting families and entrepreneurs in your community.\n                </p>\n            </div>\n            <div>\n                <img src=\"images/sign.svg\" alt=\"quality_sign\">\n                <p><strong>\n                    Enjoy the best quality\n                </strong></p>\n                <p>\n                    We only offer great tasting, all natural foods that are better for you, and organic if possible.\n                </p>\n            </div>\n            <div>\n                <img src=\"images/heart.svg\" alt=\"heart\">\n                <p><strong>\n                    Enjoy Club Level Service\n                </strong></p>\n                <p>\n                    As a member of our club, we will make sure you are delighted with our service or we will make it right!\n                </p>\n            </div>\n        </div>\n    </div>\n</section>\n\n<footer>\n    <div class=\"central_container d_flex space_between flex-wrap\">\n        <div class=\"header_div flex-wrap flexadapt\">\n        <img src=\"images/logo.svg\" class=\"d-block w-100 m-width-104\">\n        </div>\n        <div class=\"header_div\">\n        <h5 class=\"margin-btm-15\">\n            <a href=\"#\">Occasions</a>\n        </h5>\n            <ul>\n                <li><a href=\"#\">Occasions</a></li>\n                <li><a href=\"#\">Working From Home</a></li>\n                <li><a href=\"#\">Snack Time</a></li>\n                <li><a href=\"#\">Breakfast</a></li>\n                <li><a href=\"#\">Vegan Life</a></li>\n                <li><a href=\"#\">Baking</a></li>\n                <li><a href=\"#\">Gifts & Bundles</a></li>\n                <li><a href=\"#\">Easy Cooking</a></li>\n                <li><a href=\"#\">All Products</a></li>\n            </ul>\n        </div>\n        <div class=\"header_div\">\n            <h5 class=\"margin-btm-15\">\n                <a href=\"#\">All Categories</a>\n            </h5>\n            <ul>\n                <li><a href=\"#\">Baking</a></li>\n                <li><a href=\"#\">Breakfast</a></li>\n                <li><a href=\"#\">Condiments</a></li>\n                <li><a href=\"#\">Drinks</a></li>\n                <li><a href=\"#\">Heat Things Up</a></li>\n                <li><a href=\"#\">Meal Solutions</a></li>\n                <li><a href=\"#\">Pantry Staples</a></li>\n                <li><a href=\"#\">Simmer Sauces</a></li>\n                <li><a href=\"#\">Snacks & Treats</a></li>\n                <li><a href=\"#\">Spice Up Your Cooking</a></li>\n                <li><a href=\"#\">Sweet Tooth</a></li>\n                <li><a href=\"#\">Wine & Cheese</a></li>\n                <li><a href=\"#\">All Products</a></li>\n            </ul>\n        </div>\n        <div class=\"header_div\">\n            <h5 class=\"margin-btm-15\">\n                <a href=\"#\">Gifts & Bundles</a>\n            </h5>\n            <ul>\n                <li><a href=\"#\">Sweet Tooth Special</a></li>\n                <li><a href=\"#\">Discover Local</a></li>\n                <li><a href=\"#\">Baking Box</a></li>\n                <li><a href=\"#\">Spicy Heat Lover's Box</a></li>\n                <li><a href=\"#\">Snacking Sensations</a></li>\n\n            </ul>\n        </div>\n        <div class=\"header_div\">\n            <h5 class=\"margin-btm-15\">\n                <a href=\"#\">Our Brands</a>\n            </h5>\n            <ul>\n\n            </ul>\n        </div>\n        <div class=\"header_div\">\n            <h5 class=\"margin-btm-15\">\n                <a href=\"#\">About Us</a>\n            </h5>\n            <ul>\n\n            </ul>\n        </div>\n\n\n    </div>\n</footer>\n</body>\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/index.html b/index.html
+--- a/index.html	(revision 6f2fa57380a43cae1d6e8334f1acec45dfe2f08b)
++++ b/index.html	(date 1645641010693)
+@@ -93,7 +93,7 @@
+                 <li><a href="#">All Products</a></li>
+             </ul>
+         </div>
+-        <div class="header_div">
++        <div class="footer_div">
+             <h5 class="margin-btm-15">
+                 <a href="#">All Categories</a>
+             </h5>
+@@ -113,7 +113,7 @@
+                 <li><a href="#">All Products</a></li>
+             </ul>
+         </div>
+-        <div class="header_div">
++        <div class="footer_div">
+             <h5 class="margin-btm-15">
+                 <a href="#">Gifts & Bundles</a>
+             </h5>
+@@ -126,7 +126,7 @@
+ 
+             </ul>
+         </div>
+-        <div class="header_div">
++        <div class="footer_div">
+             <h5 class="margin-btm-15">
+                 <a href="#">Our Brands</a>
+             </h5>
+@@ -134,16 +134,14 @@
+ 
+             </ul>
+         </div>
+-        <div class="header_div">
++        <div class="footer_div">
+             <h5 class="margin-btm-15">
+                 <a href="#">About Us</a>
+             </h5>
+             <ul>
+-
+             </ul>
+         </div>
+ 
+-
+     </div>
+ </footer>
+ </body>
+Index: css/vitalii.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>footer {\n    padding: 60px 0;\n}\n.d-block{\n    display: block;\n}\n.space_between{\n    justify-content: space-between;\n}\n.flex-wrap{\n    flex-wrap: wrap;\n}\n.w-100{\n    width: 100%;\n}\n.m-width-104{\n    max-width: 104px;\n}\nfooter ul{\n    list-style-type: none;\n}\n.header_div{\n    margin-right: 15px;\n    margin-bottom: 20px;\n}\n\nfooter h5 a{\n    font-family: 'Poppins', sans-serif;\n    font-style: normal;\n    font-weight: 500;\n    font-size: 15px;\n    line-height: 22px;\n    color: #1F1F1F;\n}\nfooter ul li a{\n    font-family: 'Poppins', sans-serif;\n    font-style: normal;\n    font-weight: normal;\n    font-size: 15px;\n    line-height: 31px;\n    color: #3D3D3D;\n}\nfooter a{\n    text-decoration: none;\n}\n.margin-btm-15{\n    margin-bottom: 15px;\n}\n\n@media only screen and (max-width: 1024px) {\n\n}\n@media only screen and (max-width: 992px) {\n\n}\n@media only screen and (max-width: 767px) {\n\n}\n@media only screen and (max-width: 420px) {\n\n}\n@media only screen and (max-width: 375px) {\n\n}\n@media only screen and (max-width: 360px) {\n\n}\n@media only screen and (max-width: 320px) {\n\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/css/vitalii.css b/css/vitalii.css
+--- a/css/vitalii.css	(revision 6f2fa57380a43cae1d6e8334f1acec45dfe2f08b)
++++ b/css/vitalii.css	(date 1645641010669)
+@@ -19,7 +19,7 @@
+ footer ul{
+     list-style-type: none;
+ }
+-.header_div{
++.footer_div{
+     margin-right: 15px;
+     margin-bottom: 20px;
+ }
