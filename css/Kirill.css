@@ -4,6 +4,9 @@
 .add_wrapper{
     align-items: center;
 }
+.add_wrap{
+    max-width: 539px;
+}
 .img_size_snack{
     width: 570px;
     margin-right: 31px;
@@ -51,72 +54,93 @@
 }
 /*//////////////////////////////////RESPONSIVE///////////////////////////////*/
 @media only screen and (max-width: 1024px) {
+    .surprise_someone_section{
+        padding: 80px 15px;
+    }
     .add_wrapper{
         flex-direction: column;
     }
-    .img_snack{
+    .img_size_snack{
         margin-right: 0;
         margin-bottom: 30px;
-        max-width: 1024px;
+        width: 100%;
     }
 }
 @media only screen and (max-width: 992px) {
+    .surprise_someone_section{
+        padding: 80px 15px;
+    }
     .add_wrapper{
         flex-direction: column;
     }
-    .img_snack{
+    .img_size_snack{
         margin-right: 0;
         margin-bottom: 30px;
-        max-width: 992px;
+        width: 100%;
     }
 }
 @media only screen and (max-width: 767px) {
+    .surprise_someone_section{
+        padding: 80px 15px;
+    }
     .add_wrapper{
         flex-direction: column;
     }
-    .img_snack{
+    .img_size_snack{
         margin-right: 0;
         margin-bottom: 30px;
-        max-width: 767px;
+        width: 100%;
     }
 }
 @media only screen and (max-width: 420px) {
+    .surprise_someone_section{
+        padding: 80px 15px;
+    }
     .add_wrapper{
         flex-direction: column;
     }
-    .img_snack{
+    .img_size_snack{
         margin-right: 0;
         margin-bottom: 30px;
-        max-width: 420px;
+        width: 100%;
     }
 }
 @media only screen and (max-width: 375px) {
+    .surprise_someone_section{
+        padding: 80px 15px;
+    }
     .add_wrapper{
         flex-direction: column;
     }
-    .img_snack{
+    .img_size_snack{
         margin-right: 0;
         margin-bottom: 30px;
-        max-width: 375px;
+        width: 100%;
     }
 }
 @media only screen and (max-width: 360px) {
+    .surprise_someone_section{
+        padding: 80px 15px;
+    }
     .add_wrapper{
         flex-direction: column;
     }
-    .img_snack{
+    .img_size_snack{
         margin-right: 0;
         margin-bottom: 30px;
-        max-width: 360px;
+        width: 100%;
     }
 }
 @media only screen and (max-width: 320px) {
+    .surprise_someone_section{
+        padding: 80px 15px;
+    }
     .add_wrapper{
         flex-direction: column;
     }
-    .img_snack{
+    .img_size_snack{
         margin-right: 0;
         margin-bottom: 30px;
-        max-width: 320px;
+        width: 100%;
     }
 }
