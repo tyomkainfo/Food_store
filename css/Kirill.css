@@ -4,8 +4,13 @@
 .add_wrapper{
     align-items: center;
 }
-.img_snack{
+.img_size_snack{
+    width: 570px;
     margin-right: 31px;
+}
+.img_snack{
+    width: 100%;
+
 }
 .heading_surprise{
     font-family: Cormorant;
